@@ -1,0 +1,77 @@
+body {
+	background: url('../img=tourneledisque.png')bottom
+	background-size: 50%;
+}
+
+/* MENU */
+.menu {
+	color: red;
+	background: black;
+}
+.menu ul li {
+	display: inline-block;
+	padding: 20px;
+}
+/**/
+
+div {
+	z-index: 999999;
+	color: #fff;
+}
+
+
+	width: 120px;
+	height: 120px;
+	box-shadow: 4px 4px 5px #333;
+c
+
+img {
+	margin-top: 120px;
+	width: 360px;
+}
+
+iframe {
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+
+#glossary-list-3d {
+	position: relative;
+	perspective: 300px;
+}
+
+#glossary-list-3d dd {
+	padding-top: 60px;
+}
+
+#glossary-list-3d dt {
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	text-shadow: 1px 1px 1px #ddd,
+				2px 2px 1px #bbb,
+				3px 3px 1px #777,
+				4px 4px 1px #555,
+				5px 5px 1px #333,
+				6px 6px 1px #111;
+	font-size: 3.3em;
+	-webkit-animation: animTitle 10s infinite linear;
+}
+
+@keyframes animTitle {
+	0% {
+		top: 80px;
+		transform: scale(1.9) rotateX(70deg) translateY(120px);
+	}
+	100% {
+		top: -80px;
+		transform: scale(0.5) rotateX(70deg) translateY(-120px);
+	}
+}
